@@ -50,12 +50,12 @@ function Footer() {
                   Store Policy
                 </a>
               </li>
-              <li class="nav-item mb-2">
+              <li className="nav-item mb-2">
                 <a href="#" className="nav-link p-0 text-black">
                   Payment Methods
                 </a>
               </li>
-              <li class="nav-item mb-2">
+              <li className="nav-item mb-2">
                 <a href="#" className="nav-link p-0 text-black">
                   FAQ
                 </a>
@@ -68,9 +68,7 @@ function Footer() {
               <h6>Join our mailing list and get 10% off your purchase</h6>
 
               <div className="d-flex flex-column w-100 gap-2">
-                <label for="newsletter1" class="visually-hidden">
-                  Email address
-                </label>
+                <label className="visually-hidden">Email address</label>
                 <input
                   id="newsletter1"
                   type="text"
@@ -90,26 +88,26 @@ function Footer() {
           </div>
         </div>
 
-        <div class="d-flex justify-content-between py-4 my-4 border-top">
+        <div className="d-flex justify-content-between py-4 my-4 border-top">
           <p>&copy; 2021 Company, Inc. All rights reserved.</p>
-          <ul class="list-unstyled d-flex">
-            <li class="ms-3">
-              <a class="link-dark" href="#">
-                <svg class="bi" width="24" height="24">
+          <ul className="list-unstyled d-flex">
+            <li className="ms-3">
+              <a className="link-dark" href="#">
+                <svg className="bi" width="24" height="24">
                   {/* <use xlink:href="#twitter" /> */}
                 </svg>
               </a>
             </li>
-            <li class="ms-3">
-              <a class="link-dark" href="#">
-                <svg class="bi" width="24" height="24">
+            <li className="ms-3">
+              <a className="link-dark" href="#">
+                <svg className="bi" width="24" height="24">
                   {/* <use xlink:href="#instagram" /> */}
                 </svg>
               </a>
             </li>
-            <li class="ms-3">
-              <a class="link-dark" href="#">
-                <svg class="bi" width="24" height="24">
+            <li className="ms-3">
+              <a className="link-dark" href="#">
+                <svg className="bi" width="24" height="24">
                   {/* <use xlink:href="#facebook" /> */}
                 </svg>
               </a>
