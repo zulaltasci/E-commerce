@@ -1,6 +1,5 @@
 # E-commerce Project
 
-![E-commerce Logo](logo.png)
 
 This project is a Next.js-based e-commerce application that aims to provide a user-friendly interface and e-commerce functionality.
 
